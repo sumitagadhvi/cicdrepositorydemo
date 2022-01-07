@@ -26,7 +26,7 @@ jobs:
     - uses: rnkdsh/action-upload-diawi@v1.2.1
       id: diawi
       with:
-        token: ${{ secrets.VnNqBl6oRtLV4yeRjERZSg9Vk5FuRqb6XsaqVm6jl5 }}
+        token: VnNqBl6oRtLV4yeRjERZSg9Vk5FuRqb6XsaqVm6jl5
         file: build/app/outputs/flutter-apk/app-release.apk
         comment: 'Upload from github action'
         name: Output
