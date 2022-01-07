@@ -30,4 +30,4 @@ jobs:
         file: build/app/outputs/flutter-apk/app-release.apk
         comment: 'Upload from github action'
         name: Output
-      run: echo "Diawi url= ${{ steps.diawi.outputs['url'] }}"
+     - run: echo "Diawi url= ${{ steps.diawi.outputs['url'] }}"
