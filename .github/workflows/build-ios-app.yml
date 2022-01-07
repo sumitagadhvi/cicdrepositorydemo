@@ -18,12 +18,8 @@ jobs:
       with:
         channel: 'beta'
     - run: flutter pub get
-    - run: flutter analyze
-    - run: flutter test
-    - run: dart test
     - run: flutter build apk
-
     - uses: actions/upload-artifact@v1
       with:
-        name: release-apk
-        path: build/app/outputs/apk/app-release.apk
+        name: build-apk
+        path: build/app/outputs/flutter-apk/app-release.apk
