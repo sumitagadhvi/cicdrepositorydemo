@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="800e4b7b-8844-490b-ba9e-ba81e72f2c4c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/customdialogue.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../.github/workflows/build-ios-app.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.github/workflows/build-ios-app.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
