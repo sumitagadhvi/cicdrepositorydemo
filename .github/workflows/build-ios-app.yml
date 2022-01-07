@@ -12,7 +12,7 @@ jobs:
     steps:
       - name:  FastlaneSetup
        uses: actions/checkout@v2
-      - run: fastlane beta
+        run: fastlane beta
          #build android App#
         uses: actions/checkout@v1
       - name: Setup Java
