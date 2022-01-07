@@ -10,8 +10,8 @@ jobs:
   build:
     runs-on: macos-latest
     steps:
-      - name:  FastlaneSetup
-       - uses: actions/checkout@v2
+       - name:  FastlaneSetup
+         uses: actions/checkout@v2
         run: fastlane beta
          #build android App#
         uses: actions/checkout@v1
