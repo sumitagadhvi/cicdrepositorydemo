@@ -24,18 +24,18 @@ jobs:
         with:
           channel: 'stable'
            run: flutter pub get
-         run: flutter analyze
-       run: flutter test
-          run: dart test
-       run: flutter build apk
-         run: dart test
-       run: flutter build appbundle
- test:
-   runs-on: macos-latest
-   steps:
-     - name: Checkout
-       uses: actions/checkout@v2
-     - name: Setup Java
-       uses: actions/setup-java@v1
-      with: java-version:'1.8.0_311'
-      channel: 'stable
+#         run: flutter analyze
+#       run: flutter test
+#          run: dart test
+#       run: flutter build apk
+#         run: dart test
+#       run: flutter build appbundle
+# test:
+#   runs-on: macos-latest
+#   steps:
+#     - name: Checkout
+#       uses: actions/checkout@v2
+#     - name: Setup Java
+#       uses: actions/setup-java@v1
+#      with: java-version:'1.8.0_311'
+#      channel: 'stable
