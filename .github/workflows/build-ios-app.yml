@@ -11,7 +11,7 @@ jobs:
     runs-on: macos-latest
     steps:
       - name:  FastlaneSetup
-       uses: actions/checkout@v2
+       - uses: actions/checkout@v2
         run: fastlane beta
          #build android App#
         uses: actions/checkout@v1
@@ -20,7 +20,7 @@ jobs:
        with: java-version:'1.8.0_311'
 
        #setup flutter platform
-       -uses: subosito/flutter-action@v1
+       - uses: subosito/flutter-action@v1
         with:
           channel: 'stable'
         - run: flutter pub get
